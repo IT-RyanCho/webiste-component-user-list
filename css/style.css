@@ -1,0 +1,17 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media(min-width: 600px){
+    .container {
+        width: 600px;
+    }
+}
+
+/* !important >> overwrite bootstrap class */
+@media(max-width: 767px){
+    .user-menu{
+        justify-content: center !important;
+        margin-top: 20px;
+    }
+}
